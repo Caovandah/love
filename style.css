@@ -1,6 +1,6 @@
 body {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background: #2c3e50;
 }
@@ -47,10 +47,14 @@ body {
     transform-origin: 100% 100%;
 }
 
-.title {
-    color: #ff9f9f;
+.title,
+.audio {
     position: absolute;
     text-align: center;
+}
+
+.title {
+    color: #ff9f9f;
 }
 
 @keyframes animate {
